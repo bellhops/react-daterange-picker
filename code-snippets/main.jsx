@@ -54,6 +54,7 @@ const DatePicker = React.createClass({
     return (
       <DateRangePicker
         firstOfWeek={1}
+        fullDayStates={true}
         numberOfCalendars={2}
         selectionType='range'
         minimumDate={new Date()}
