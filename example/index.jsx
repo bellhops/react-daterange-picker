@@ -198,6 +198,7 @@ const Index = createClass({
       );
     }
     return date.format('D');
+  },
 
   _selectLocale() {
     const locale = this.refs.locale.value;

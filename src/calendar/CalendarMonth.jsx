@@ -14,7 +14,6 @@ import PureRenderMixin from '../utils/PureRenderMixin';
 const lang = moment().localeData();
 
 const DEFAULT_WEEKDAYS = Immutable.List(lang._weekdaysShort);
-const MONTHS = Immutable.List(lang._months);
 
 
 const CalendarMonth = createClass({
