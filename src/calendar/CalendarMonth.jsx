@@ -111,7 +111,7 @@ const CalendarMonth = createClass({
     let headers = indices.map(function(index) {
       let {weekdayNames} = this.props;
       let weekdays = Immutable.List(lang._weekdays).zip(Immutable.List(weekdayNames));
-      let weekday = this.WEEKDAYS.get(index);
+      let weekday = weekdays.get(index);
       return (
         <th className={this.cx({element: 'WeekdayHeading'})} key={weekday} scope="col"><abbr title={weekday[0]}>{weekday[1]}</abbr></th>
       );
