@@ -36,7 +36,7 @@ describe('Localization', function () {
         onMonthChange: function () {},
         onYearChange: function () {},
         bemBlock: 'DateRangePicker',
-        locale: props.locale || 'en',
+        locale: 'en',
       }, props);
 
 
